@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: rest_api
+  datasource:
+      url: jdbc:mysql://chita01:3306/estudo
+      username: openkdbuser
+      password: Homologa
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
