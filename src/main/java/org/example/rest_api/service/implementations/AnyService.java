@@ -18,7 +18,7 @@ public class AnyService  implements IAnyService {
 
     @Override
     public List<ChatMessage> getAllMessage() {
-        if(true)
+        if(false)
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Resource not found");
         return _anyRepository.getAllMessage();
     }
